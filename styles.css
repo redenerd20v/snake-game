@@ -1,0 +1,39 @@
+/* styles.css */
+
+body {
+    background: url('images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.start-screen {
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.start-screen h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3em;
+    margin: 0;
+}
+
+.start-screen p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+#gameCanvas {
+    border: 1px solid #fff;
+    display: block;
+    margin: auto;
+}
